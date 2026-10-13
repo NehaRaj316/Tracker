@@ -1,0 +1,8 @@
+{
+  "name": "FocusCGL 31",
+  "description": "31-day SSC CGL master study planner with 10 AM to 10 PM daily schedule, full mock test series tracker, walking & meal breaks, and rigorous subject revision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
