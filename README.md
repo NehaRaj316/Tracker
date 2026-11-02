@@ -45,9 +45,17 @@ A native Android application built for SSC CGL aspirants to execute a discipline
 
 ---
 
-## 🚀 Live Showcase on GitHub Pages
+## 🚀 Live Web App Clone on GitHub Pages
 
-The project includes an interactive web showcase located in the `/docs` directory.
+The `/docs` directory contains a full, standalone, and responsive **web app clone** of `FocusCGL 31`. It runs completely in any modern web browser on desktop and mobile:
+- **10 AM – 10 PM Interactive Daily Schedule**: All 13 continuous daily blocks, customizable sub-tasks per block, live current time indicator on the Gantt timeline, and day reset/completion.
+- **Dedicated Pomodoro Timer**: 25m focus, 50m deep focus, full block, and 5m/15m breaks with Web Audio API chime synthesis.
+- **31-Day Study Streak Tracker**: Live SVG circular progress ring with 31 daily graduation ticks, continuity ribbon, and streak metrics.
+- **Topic Revision Tracker**: 124 official syllabus topics across Quant, Reasoning, English, and GA with search, filtering, and 1-click status tagging (`Mastered`, `Needs Review`, `Not Started`).
+- **Mock Test Score Progression**: 31 full-length mock tracker with sectional scores (/50 each), 170+ cutoff tracker, and responsive SVG trend chart.
+- **Formula & Rule Flashcards**: High-yield formulas, reverse alphabet pairs, and golden grammar rules.
+- **Full Data Persistence**: Uses browser `localStorage` so all streak, subtask, topic, and mock scores persist across browser refreshes.
+- **Direct APK Download**: One-click download button for `FocusCGL-31.apk` (23 MB).
 
 ### Enabling GitHub Pages in Your Repository:
 
@@ -57,13 +65,13 @@ You can activate GitHub Pages in your GitHub repository in two ways:
 1. In your GitHub repository, navigate to **Settings** > **Pages** (under Code and automation).
 2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
 3. Push to `main` or trigger the workflow under **Actions** > **Deploy to GitHub Pages** > **Run workflow**.
-4. The workflow will automatically compile the Android APK, package the site from `docs/`, and publish the live site.
+4. The workflow automatically builds the Android APK, stages the site from `docs/`, and publishes the live web app.
 
 #### Option B: Deploy from Branch
 1. Navigate to **Settings** > **Pages**.
 2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
 3. Under **Branch**, select `main` and folder `/docs`.
-4. Click **Save**. Within 1–2 minutes, your showcase will be live at `https://<username>.github.io/<repo-name>/`.
+4. Click **Save**. Within 1–2 minutes, your web app clone will be live at `https://<username>.github.io/<repo-name>/`.
 
 ---
 
