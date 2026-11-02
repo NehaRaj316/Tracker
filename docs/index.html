@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusCGL 31 — 31-Day SSC CGL Preparation & Study Planner</title>
+  <meta name="description" content="Master the SSC CGL examination with a 31-day structured 10 AM to 10 PM daily study roadmap, sub-task tracking, Pomodoro focus timer, subject revision logger, and mock test analytics.">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <circle cx="12" cy="12" r="6"></circle>
+            <circle cx="12" cy="12" r="2"></circle>
+          </svg>
+        </div>
+        <span class="brand-name">FocusCGL <span class="brand-tag">31</span></span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#simulator">Live Simulator</a>
+        <a href="#schedule">10AM-10PM Plan</a>
+        <a href="#roadmap">31-Day Roadmap</a>
+        <a href="#download" class="btn btn-outline-nav">Download APK</a>
+      </nav>
+      <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          SSC CGL 31-Day Intensive Exam Accelerator
+        </div>
+        <h1 class="hero-title">
+          Conquer SSC CGL with Disciplined <span class="gradient-text">10 AM – 10 PM</span> Daily Mastery
+        </h1>
+        <p class="hero-subtitle">
+          An Android application purpose-built for aspirants. Track your 31-day streak, conquer timed sub-tasks, sharpen focus with an exam-tuned Pomodoro timer, log topic revisions, and analyze mock test scores.
+        </p>
+        <div class="hero-cta">
+          <a href="#download" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download Android APK
+          </a>
+          <a href="#simulator" class="btn btn-secondary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Try Interactive Demo
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-num">31 Days</div>
+            <div class="stat-desc">Complete Tier 1 & 2 Syllabus</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">12 Hours</div>
+            <div class="stat-desc">Structured 10 AM – 10 PM Routine</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">124 Topics</div>
+            <div class="stat-desc">Quant, Reasoning, English, GA</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Phone Showcase -->
+      <div class="hero-device-wrapper">
+        <div class="device-frame">
+          <div class="device-notch"></div>
+          <div class="device-screen-preview">
+            <div class="mock-status-bar">
+              <span>10:00 AM</span>
+              <div class="status-icons">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.27 20.26 10.59 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4z"/></svg>
+              </div>
+            </div>
+            <div class="mock-app-header">
+              <div class="mock-greeting">
+                <span class="sub">Day 14 of 31</span>
+                <h3>Target: 170+ / 200</h3>
+              </div>
+              <div class="mock-streak-chip">🔥 14 Days Streak</div>
+            </div>
+            
+            <div class="mock-progress-ring-card">
+              <div class="ring-visual">
+                <svg viewBox="0 0 100 100" class="ring-svg">
+                  <circle cx="50" cy="50" r="42" class="ring-bg"></circle>
+                  <circle cx="50" cy="50" r="42" class="ring-fg" stroke-dasharray="264" stroke-dashoffset="145"></circle>
+                </svg>
+                <div class="ring-label">
+                  <span class="val">45%</span>
+                  <span class="sub-txt">14/31 Days</span>
+                </div>
+              </div>
+              <div class="ring-info">
+                <h4>31-Day Prep Streak</h4>
+                <p>On track for Tier-1 Exam</p>
+                <div class="badge-mini">Consistency: 96%</div>
+              </div>
+            </div>
+
+            <div class="mock-active-block-card">
+              <div class="block-header">
+                <span class="block-time-badge">10:00 AM - 1:00 PM</span>
+                <span class="block-tag quant">Quant</span>
+              </div>
+              <h4>Algebra & Number Systems</h4>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" style="width: 75%"></div>
+              </div>
+              <span class="subtask-count-text">3 of 4 sub-tasks completed (75%)</span>
+            </div>
+
+            <div class="mock-pomo-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Pomodoro Active: 18:42 Remaining</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Simulator Section -->
+  <section id="simulator" class="simulator-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hands-On Web Simulator</span>
+        <h2>Experience the FocusCGL 31 Core Features</h2>
+        <p>Interact directly with the exact functional modules implemented in the native Android application.</p>
+      </div>
+
+      <div class="simulator-box">
+        <div class="simulator-tabs">
+          <button class="sim-tab active" data-tab="schedule">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            10 AM - 10 PM Schedule
+          </button>
+          <button class="sim-tab" data-tab="pomodoro">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            Study Pomodoro
+          </button>
+          <button class="sim-tab" data-tab="revision">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            Subject Revision Tracker
+          </button>
+          <button class="sim-tab" data-tab="streak">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            31-Day Streak Analytics
+          </button>
+        </div>
+
+        <div class="simulator-panels">
+          <!-- Panel 1: Schedule & Sub-tasks -->
+          <div class="sim-panel active" id="tab-schedule">
+            <div class="panel-layout">
+              <div class="panel-left">
+                <h3>Today's Study Blocks (10:00 AM – 10:00 PM)</h3>
+                <p>Click sub-tasks to update real-time completion percentage for each study segment.</p>
+                <div class="block-items" id="scheduleBlocksContainer">
+                  <!-- Rendered dynamically via JS -->
+                </div>
+              </div>
+              <div class="panel-right">
+                <div class="summary-card">
+                  <h4>Daily Block Completion</h4>
+                  <div class="circle-progress-wrapper">
+                    <svg viewBox="0 0 120 120" class="large-ring-svg">
+                      <circle cx="60" cy="60" r="50" class="ring-bg"></circle>
+                      <circle cx="60" cy="60" r="50" id="dailyProgressRing" class="ring-fg" stroke-dasharray="314" stroke-dashoffset="157"></circle>
+                    </svg>
+                    <div class="ring-text-center">
+                      <span id="dailyProgressPercent">50%</span>
+                      <small>Completed</small>
+                    </div>
+                  </div>
+                  <div class="stats-row">
+                    <div><b id="completedSubtasksCount">6</b><br><span>Sub-tasks Done</span></div>
+                    <div><b id="totalSubtasksCount">12</b><br><span>Total Sub-tasks</span></div>
+                  </div>
+                  <div class="action-alert" id="scheduleAlert">
+                    💡 <strong>Pro Tip:</strong> Keep your 1:00 PM lunch & 5:00 PM walk non-negotiable to maintain cognitive peak performance through 10:00 PM.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2: Pomodoro Timer -->
+          <div class="sim-panel" id="tab-pomodoro">
+            <div class="pomo-container">
+              <div class="pomo-mode-selector">
+                <button class="pomo-mode-btn active" data-mode="25">Standard Focus (25m)</button>
+                <button class="pomo-mode-btn" data-mode="50">Deep Exam Sprint (50m)</button>
+                <button class="pomo-mode-btn" data-mode="5">Short Break (5m)</button>
+                <button class="pomo-mode-btn" data-mode="15">Walk / Meal Break (15m)</button>
+              </div>
+
+              <div class="pomo-dial-wrap">
+                <div class="pomo-dial">
+                  <div class="pomo-timer-display" id="pomoTime">25:00</div>
+                  <div class="pomo-status" id="pomoStatus">Ready for Quantitative Aptitude</div>
+                </div>
+              </div>
+
+              <div class="pomo-controls">
+                <button class="btn btn-primary" id="pomoStartBtn">Start Focus</button>
+                <button class="btn btn-secondary" id="pomoResetBtn">Reset</button>
+              </div>
+
+              <div class="pomo-intervals-history">
+                <span>Completed Focus Intervals Today: <strong id="pomoIntervalCount">4</strong> (2 hours focused)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: Topic Revision Tracker -->
+          <div class="sim-panel" id="tab-revision">
+            <div class="revision-header">
+              <div class="subject-filter-group" id="subjectFilter">
+                <button class="sub-filter-btn active" data-subject="ALL">All Subjects</button>
+                <button class="sub-filter-btn" data-subject="QUANT">Quant (31)</button>
+                <button class="sub-filter-btn" data-subject="REASONING">Reasoning (31)</button>
+                <button class="sub-filter-btn" data-subject="ENGLISH">English (31)</button>
+                <button class="sub-filter-btn" data-subject="GA">General Awareness (31)</button>
+              </div>
+              <div class="revision-stats-badges">
+                <span class="chip-badge chip-mastered" id="countMastered">Mastered: 14</span>
+                <span class="chip-badge chip-review" id="countReview">Needs Review: 8</span>
+                <span class="chip-badge chip-notstarted" id="countNotStarted">Not Started: 10</span>
+              </div>
+            </div>
+
+            <p class="revision-guide-text">Click status buttons to update your preparation progress across the 31-day roadmap:</p>
+
+            <div class="revision-grid" id="topicsContainer">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- Panel 4: 31-Day Streak Analytics -->
+          <div class="sim-panel" id="tab-streak">
+            <div class="streak-analytics-grid">
+              <div class="streak-cal-card">
+                <h3>31-Day Consistency Matrix</h3>
+                <p>Consecutive days with all 10 AM - 10 PM study blocks completed:</p>
+                <div class="days-matrix" id="daysMatrixContainer">
+                  <!-- Rendered dynamically -->
+                </div>
+                <div class="matrix-legend">
+                  <span class="legend-item"><span class="box-legend done"></span> Completed</span>
+                  <span class="legend-item"><span class="box-legend current"></span> Today (In Progress)</span>
+                  <span class="legend-item"><span class="box-legend upcoming"></span> Upcoming</span>
+                </div>
+              </div>
+              <div class="streak-summary-card">
+                <div class="fire-badge">🔥 14-Day Active Streak</div>
+                <div class="mock-score-chart">
+                  <h4>Mock Test Progression</h4>
+                  <div class="chart-bars">
+                    <div class="bar-col"><div class="bar" style="height: 52%"></div><span>M1 (105)</span></div>
+                    <div class="bar-col"><div class="bar" style="height: 64%"></div><span>M2 (128)</span></div>
+                    <div class="bar-col"><div class="bar" style="height: 73%"></div><span>M3 (146)</span></div>
+                    <div class="bar-col"><div class="bar" style="height: 84%"></div><span>M4 (168)</span></div>
+                    <div class="bar-col"><div class="bar" style="height: 89%"></div><span>M5 (178)</span></div>
+                  </div>
+                  <span class="chart-caption">Target: 170+ / 200 (Cutoff Clearance)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Grid -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Engineered for Results</span>
+        <h2>Everything You Need to Clear SSC CGL</h2>
+        <p>No distractions, zero unnecessary fluff. Built with 100% offline local Room Database persistence.</p>
+      </div>
+
+      <div class="grid-features">
+        <div class="feature-item">
+          <div class="f-icon orange">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3>10 AM – 10 PM Disciplined Routine</h3>
+          <p>Scientific distribution of high-intensity Quant and Reasoning slots, balanced with designated walking, lunch, and dinner blocks to prevent burnout.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="f-icon purple">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3>Sub-Task Tracking with % Progress</h3>
+          <p>Break every 3-hour study block into manageable targets. Live percentage indicators track your real-time mastery throughout the day.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="f-icon green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+          </div>
+          <h3>Subject Revision Logger</h3>
+          <p>Tag each syllabus topic as <strong>Mastered</strong>, <strong>Needs Review</strong>, or <strong>Not Started</strong>. Prioritize high-weightage topics before the exam.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="f-icon red">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          </div>
+          <h3>Dedicated Pomodoro Focus Engine</h3>
+          <p>Preset 25-minute sprints and 50-minute exam simulations with interval bells and continuous focus tracking tailored specifically for revision blocks.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="f-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"></path></svg>
+          </div>
+          <h3>Mock Test Score Progression</h3>
+          <p>Log your Tier 1 and Tier 2 full mock test scores. Inspect subject-wise breakdown across Quant, Reasoning, English, and GA against previous cutoffs.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="f-icon cyan">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          </div>
+          <h3>100% Offline & Private</h3>
+          <p>No mandatory logins, no data tracking, and no ads. Powered by Android Jetpack Room SQLite, your entire 31-day plan stays completely on your phone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10AM - 10PM Schedule Breakdown -->
+  <section id="schedule" class="schedule-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Daily Blueprint</span>
+        <h2>The 10 AM to 10 PM Standard Timetable</h2>
+        <p>Built according to top-ranker study regimens for the 31 days preceding the examination.</p>
+      </div>
+
+      <div class="schedule-timeline">
+        <div class="timeline-row">
+          <div class="time-col">10:00 AM – 1:00 PM</div>
+          <div class="badge-col"><span class="badge quant">3 Hours</span></div>
+          <div class="content-col">
+            <h4>Quantitative Aptitude (Core Concepts & Problem Solving)</h4>
+            <p>High-energy morning slot dedicated to Algebra, Geometry, Trigonometry, Arithmetic, and Data Interpretation calculation speed drills.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row rest">
+          <div class="time-col">1:00 PM – 2:00 PM</div>
+          <div class="badge-col"><span class="badge break">1 Hour</span></div>
+          <div class="content-col">
+            <h4>Lunch, Mental Rest & Decompression</h4>
+            <p>Nutritious meal and screen-free cognitive recovery to prepare for high-intensity reasoning puzzles.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <div class="time-col">2:00 PM – 5:00 PM</div>
+          <div class="badge-col"><span class="badge reasoning">3 Hours</span></div>
+          <div class="content-col">
+            <h4>Reasoning & General Intelligence</h4>
+            <p>Seating arrangement, syllogisms, blood relations, non-verbal matrices, and speed accuracy tests.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row rest">
+          <div class="time-col">5:00 PM – 6:00 PM</div>
+          <div class="badge-col"><span class="badge break">1 Hour</span></div>
+          <div class="content-col">
+            <h4>Physical Activity & Evening Walk</h4>
+            <p>Mandatory 45-minute outdoor walk, light stretching, and hydration to sustain energy through the evening.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <div class="time-col">6:00 PM – 8:30 PM</div>
+          <div class="badge-col"><span class="badge english">2.5 Hours</span></div>
+          <div class="content-col">
+            <h4>English Comprehension & Grammar</h4>
+            <p>Error spotting, vocabulary flashcards (synonyms, antonyms, idioms), cloze tests, and reading comprehension passages.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row rest">
+          <div class="time-col">8:30 PM – 9:30 PM</div>
+          <div class="badge-col"><span class="badge break">1 Hour</span></div>
+          <div class="content-col">
+            <h4>Dinner & Relaxation</h4>
+            <p>Unwinding and recharging after 8.5 hours of core revision.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <div class="time-col">9:30 PM – 10:00 PM</div>
+          <div class="badge-col"><span class="badge ga">30 Mins</span></div>
+          <div class="content-col">
+            <h4>Daily Review, GA Revision & Next Day Roadmap Setup</h4>
+            <p>Rapid current affairs revision, marking topic statuses ('Mastered' / 'Needs Review'), and checking streak completion.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download & GitHub Pages Deployment Info -->
+  <section id="download" class="download-section">
+    <div class="container">
+      <div class="download-card">
+        <div class="dl-content">
+          <span class="badge-accent">Get the Android APK</span>
+          <h2>Install FocusCGL 31 on Your Android Device</h2>
+          <p>Download the latest release APK directly. Supports Android 8.0 (API 26) through Android 15 (API 35).</p>
+          
+          <div class="dl-actions">
+            <a href="downloads/FocusCGL-31.apk" class="btn btn-primary btn-large" id="apkDownloadLink">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download FocusCGL-31.apk
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              View GitHub Repository
+            </a>
+          </div>
+
+          <div class="dl-specs">
+            <span>• Size: ~8 MB</span>
+            <span>• Package: <code>com.aistudio.focuscgl.vbyxpl</code></span>
+            <span>• Architecture: Pure Jetpack Compose + Room</span>
+          </div>
+
+          <div class="install-guide">
+            <h4>Quick Sideload Instructions:</h4>
+            <ol>
+              <li>Tap <strong>Download FocusCGL-31.apk</strong> on your Android device.</li>
+              <li>When prompted by Chrome/Browser, enable <em>"Allow installation from this source"</em>.</li>
+              <li>Tap <strong>Install</strong>. All your study data remains safely on your device.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <strong>FocusCGL 31</strong> — Dedicated SSC CGL 31-Day Study System
+        <p>Built with modern Android Jetpack Compose, Material 3, and Kotlin Coroutines.</p>
+      </div>
+      <div class="footer-right">
+        <span>Hosted via GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
